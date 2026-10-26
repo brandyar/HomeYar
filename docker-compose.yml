@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VITE_DIRECTUS_URL: ${VITE_DIRECTUS_URL}
+        VITE_DIRECTUS_TOKEN: ${VITE_DIRECTUS_TOKEN}
+    ports:
+      - "80:80"
+    restart: always
+    environment:
+      - VITE_DIRECTUS_URL=${VITE_DIRECTUS_URL}
+      - VITE_DIRECTUS_TOKEN=${VITE_DIRECTUS_TOKEN}

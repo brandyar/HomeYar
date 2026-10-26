@@ -1,0 +1,6 @@
+{
+  "name": "سامانه املاک هوم‌یار",
+  "description": "پلتفرم جامع جستجو و کاوش املاک با نقشه تعاملی، فیلترهای پیشرفته، ثبت ملک و پکیج‌های اختصاصی خریداران",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
